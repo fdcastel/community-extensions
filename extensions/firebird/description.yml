@@ -20,9 +20,9 @@ extension:
   excluded_platforms: "wasm_mvp;wasm_threads;wasm_eh"
 
 repo:
-  github: flozer/duckdb-firebird
-  # v1.4.1 (immutable commit pin)
-  ref: 33d66af2a247b1ac7e611733f231dafd7c8d81eb
+  github: fdcastel/duckdb-firebird
+  # PR 125 review head (batched writes, OO headers in third_party/firebird-oo)
+  ref: 52375012ef18998f8a46b870c636fb3d1f041508
 
 docs:
   hello_world: |
