@@ -24,7 +24,7 @@ repo:
   # PR 126 review head (interrupted writes)
   ref: 896ee3d3429f72c491dda868a38dc909182061f6
   # the same commit, for the DuckDB v1.5.6 build
-  variegata: e1699d4d0b1653d202b337ddaad68e3a30b1737f
+  variegata: 896ee3d3429f72c491dda868a38dc909182061f6
 
 docs:
   hello_world: |
