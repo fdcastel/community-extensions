@@ -21,10 +21,10 @@ extension:
 
 repo:
   github: fdcastel/duckdb-firebird
-  # cancel-writes head (interrupted writes), on main after PR 125
-  ref: 3fdb61cd1a74cb606cf4e40143bc84d991c53b1e
+  # PR 126 review head (interrupted writes)
+  ref: e1699d4d0b1653d202b337ddaad68e3a30b1737f
   # the same commit, for the DuckDB v1.5.6 build
-  variegata: 3fdb61cd1a74cb606cf4e40143bc84d991c53b1e
+  variegata: e1699d4d0b1653d202b337ddaad68e3a30b1737f
 
 docs:
   hello_world: |
